@@ -4,11 +4,11 @@ class addbyuser{
    double a,b;
    void getdata()
    {
-   Scanner s= new Scanner(System.in);
+   Scanner S= new Scanner(System.in);
    System.out.println("Enter a number:");
-   a=s.nextDouble();
+   a=S.nextDouble();
    System.out.println("Enter 2nd number:");
-   b=s.nextDouble();
+   b=S.nextDouble();
    }
    double process()
    {
