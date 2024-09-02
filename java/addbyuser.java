@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 class addbyuser{
-   double a,b;
+   double 4a,b;
    void getdata()
    {
    Scanner S= new Scanner(System.in);
