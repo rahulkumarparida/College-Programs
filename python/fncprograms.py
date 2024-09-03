@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1d6965cd457d19169938f9ec704f00169433e155
 def square(sq):
     return sq*sq
 
@@ -12,11 +16,33 @@ def evenodd(n):
         return "even"
     elif(n%2!=0):
         return "odd"
+<<<<<<< HEAD
+def prime(n):
+	n=int(input("Enter number to check: "))
+	f=0
+	i=2
+	while (i<=(n//2)):
+    		if((n%i)==0):
+        	f = 1
+        	break
+    		i+=1
+		if(n==1):
+    			return "1 is neither prime nor composite"
+		elif(f==0):
+    			return " a prime number."
+		else:
+    			return " a composite number."
+=======
+>>>>>>> 1d6965cd457d19169938f9ec704f00169433e155
 
 print("1. Area of the Square")
 print("2. Area of the Rectangle")
 print("3. Volume of the Cube")
 print("4. If number is Even or Odd")
+<<<<<<< HEAD
+print("5. Prime or not")
+=======
+>>>>>>> 1d6965cd457d19169938f9ec704f00169433e155
 ch=int(input("______MAKE A CHOICE_____ "))
 if ch==1:
     print("----Area of Square----")
@@ -37,5 +63,13 @@ elif ch==4:
     print("----Even or Odd----")
     n=int(input("enter the number:- "))
     print("Number is ", evenodd(n))
+<<<<<<< HEAD
+elif ch==5:
+	
+    print("----Prime or Composite----")
+    n=int(input("enter the number:- "))
+    print(prime(n))
+=======
+>>>>>>> 1d6965cd457d19169938f9ec704f00169433e155
 else:
     print("Choice not available")

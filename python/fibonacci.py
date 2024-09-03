@@ -10,4 +10,7 @@ i=0
 while(i<n):
     print(fibo(i))
     i+=1
+<<<<<<< HEAD
+=======
 # Output for 10 dgts :- 0 1 1 2 3 5 8 13 21 34
+>>>>>>> 1d6965cd457d19169938f9ec704f00169433e155
