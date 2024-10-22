@@ -2,6 +2,9 @@ import mymodules
 from mymodules import calculateTwo;
 from mymodules import calculateSquare;
 
+pro = mymodules.display();
+print(pro)
+
 s = int(input("Enter a number : "));
 ar =  mymodules.calculateSquare;
 calc = mymodules.calculateTwo;
@@ -43,6 +46,11 @@ mod = calc.modulo(a,b);
 print(mod);
 
 #OUTPUT
+#Created by Rahul Kumar Parida
+#Roll nO. : CS-23-69
+#Content :
+#A Module/Library for  Basic Calculation of two numbers
+#Also added to calculate square's permiter and area  and volume of the cube
 #Enter a number : 5
 #Area of the sqaure is : 
 #25

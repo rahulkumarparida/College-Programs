@@ -16,5 +16,10 @@ class calculateSquare:
         return (4*s);
     def volume(l):
         return (l*l*l);
-    
+def display():
+    print("Created by Rahul Kumar Parida")
+    print("Roll nO. : CS-23-69")
+    print("Content :")
+    print("A Module/Library for  Basic Calculation of two numbers")
+    print("Also added to calculate square's permiter and area  and volume of the cube")
     
