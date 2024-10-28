@@ -1,7 +1,7 @@
 import java.util.*;
 
 interface Rate {
-    double r = 0; 
+    double R = 12; 
 }
 
 interface SI {
@@ -9,12 +9,11 @@ interface SI {
 }
 
 class Calculates implements Rate, SI {
-    double P, T, R;
+    double P, T;
 
-    public Calculates(double Pri, double Ti, double R) { 
+    public Calculates(double Pri, double Ti) { 
         this.P = Pri;
         this.T = Ti;
-        this.R = R; 
     }
 
     public double SimpleInterest() { 
@@ -25,12 +24,11 @@ class Calculates implements Rate, SI {
 public class InterfaceMultInht {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Principle, Rate, Time:");
+        System.out.println("Enter Principle,Time:");
         double P = sc.nextDouble(); 
-        double R = sc.nextDouble();
         double T = sc.nextDouble();
 
-        Calculates calc = new Calculates(P, T, R); 
+        Calculates calc = new Calculates(P, T); 
         double simp = calc.SimpleInterest();
         System.out.println("Simple interest is " + simp);
         System.out.println("In total You have to pay : " +(simp+P)); 
@@ -38,7 +36,7 @@ public class InterfaceMultInht {
     }
 }
 // OutPut
-// Enter Principle, Rate, Time:
-// 1000 2.5 12      
+// Enter Principle, Time:
+// 1000 2.5      
 // Simple interest is 300.0
 // In total You have to pay : 1300.0
