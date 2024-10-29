@@ -1,0 +1,15 @@
+fptr = open("Studentsdata.txt" , "w")
+n= int(input("Enter a Number : "))
+for i in range(n):
+    nm=input("Enter Name:")
+    age=int(input("Enter Age: "))
+    br=input("Enter Branch Name: ")
+    fptr.write(nm)
+    fptr.write("\n")
+    fptr.write(str(age))
+    fptr.write("\n")
+    fptr.write(br)
+fptr.close()
+fptr = open("Studentsdata.txt")
+print(fptr.read())
+fptr.close
