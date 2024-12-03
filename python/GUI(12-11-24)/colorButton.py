@@ -1,0 +1,12 @@
+from tkinter import *
+Home = Tk()
+Home.title("COlorful Buttons")
+b1 = Button(Home, text="RED",bg="red",fg="white")
+b1.pack(side="left")
+b2 = Button(Home, text="BLUE",bg="blue",fg="white")
+b2.pack(side="right")
+b3 = Button(Home, text="YELLOW",bg="yellow",fg="black")
+b3.pack(side="top")
+b4 = Button(Home, text="GREEN",bg="green",fg="white")
+b4.pack(side="bottom")
+Home.mainloop()
